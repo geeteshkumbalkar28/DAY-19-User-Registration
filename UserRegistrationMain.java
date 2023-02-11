@@ -72,7 +72,7 @@ class ValidationDuringUserEntry
 	
 	public void passwordValidation(String password)
 	{
-		if(Pattern.matches("^[A-Z][a-zA-Z]{7,}" ,password) == true)
+		if(Pattern.matches("^[a-zA-Z]{8,}" ,password) == true)
 		{
 			System.out.println("Valid Password number");
 		}
